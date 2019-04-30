@@ -1,0 +1,26 @@
+{
+  "name": "apibus-log-aliyun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsea/apibus-log-aliyun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsea/apibus-log-aliyun/issues"
+  },
+  "homepage": "https://github.com/zsea/apibus-log-aliyun#readme",
+  "dependencies": {
+    "aliyun-sdk": "^1.12.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "log4js": "^4.1.0"
+  }
+}
