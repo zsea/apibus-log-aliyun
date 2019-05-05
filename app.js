@@ -17,7 +17,9 @@ var app = new Koa();
 var bodyParser = require('koa-bodyparser');
 app.use(bodyParser());
 app.use(async function (ctx, next) {
-    ctx.body = "ok";
+    ctx.body={
+        success:true
+    };
     var body = ctx.request.body;
     logger.info(body.request.appkey,body.request.method,body.request.version);
     var content=[{
@@ -64,6 +66,7 @@ app.use(async function (ctx, next) {
         //console.log('success:', data);
 
     });
+    
 });
 
 app.listen(3000, function (err) {
